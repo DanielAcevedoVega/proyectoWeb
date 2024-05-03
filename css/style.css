@@ -32,7 +32,7 @@ body{
 .header__buttons a{
     text-decoration: none;
     font-family: sans-serif;
-    color: var(--color5);
+    color: var(--color2);
 }
 .header__buttons a:hover{
     border: 1px solid #087f5b;
@@ -63,7 +63,7 @@ body{
 }
 .home__content p,
 .home__content a{
-    color: var(--color5);
+    color: var(--color2);
 }
 .home__content p{
     /* background: red; */
@@ -126,7 +126,7 @@ body{
 .about__content h3,
 .about__content p   ,
 .about__content a{
-    color: var(--color5);
+    color: var(--color2);
     /* background: red; */
     width: 70%;
 }
@@ -149,4 +149,78 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.section__menu {
+    /* background: greenyellow; */
+    margin-top: 25rem;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.menu__title {
+    /* background: blueviolet; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu__title span{
+    color: var(--color1);
+}
+.menu__title h3{
+    font-size: 58px;
+    color: var(--color2);
+}
+.menu__content {
+    /* background: pink; */
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.content__box {
+    background: var(--color5);
+    width: 480px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    position: relative;
+}
+.content__box img{
+    width: 250px;
+}
+.content__box h5,
+.content__box small{
+    color: var(--color4);   
+}
+.content__box h5{
+    margin-top: 5px;
+    font-size: 25px;
+}
+.content__box small,
+.content__box span{
+    font-size: 20px;
+}
+.content__box span{
+    color: var(--color1);
+}
+.box__button{
+    background: var(--color1);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box__button img{
+    width: 200px;
+    height: 40px;
 }
