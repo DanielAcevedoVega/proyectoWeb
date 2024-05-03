@@ -93,4 +93,60 @@ body{
 .home__icon img{
     width: 480px;
 }
-
+.section__about {
+    /* background: greenyellow; */
+    margin-top: 25rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.about__icon {
+    /* background: yellow; */
+    width: 55rem;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+.about__icon img{
+    width: 480px;
+}
+.about__content {
+    /* background: greenyellow; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+.about__content span{
+    color: var(--color1);
+}
+.about__content h3,
+.about__content p   ,
+.about__content a{
+    color: var(--color5);
+    /* background: red; */
+    width: 70%;
+}
+.about__content h3{
+    font-size: 58px;
+}
+.about__content p{
+    /* background: #087f5b; */
+    font-size: 20px;
+}
+.about__content a{
+    background: var(--color1);
+    margin-top: 20px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 22px;
+    width: 170px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
