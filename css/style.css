@@ -312,7 +312,6 @@ body{
 }
 .contact__informationContact {
     margin-top: 10rem;
-    background: red;
     display: flex;
     justify-content: space-around;
     padding-bottom: 2rem;
@@ -338,4 +337,26 @@ body{
 }
 .informationContact__footer a{
     text-decoration: none;
+}
+.content__contact{
+    display: flex;
+}
+.content__contact a:nth-child(1){
+    position: relative;
+    right: 30px;
+}
+.content__contact a:nth-child(2){
+    position: relative;
+    right: 60px;
+}
+.content__contact a:nth-child(3){
+    position: relative;
+    right: 90px;
+}
+.content__contact a:nth-child(4){
+    position: relative;
+    right: 120px;
+}
+.content__contact img{
+    width: 58px;
 }
